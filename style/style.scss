@@ -4,19 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 .header{
   
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   // background: #000;
- 
-  
-  
-  
     .navbar a{
       margin: 0 1rem;
       font-size: 20px;
@@ -28,6 +21,7 @@
     }
 }
 .home {
+  height: 100vh;
   position: relative;
   // margin-top: 20px;
   img{
@@ -62,4 +56,8 @@
     margin-top: 390px;
     margin-left: 60px;
   }
+}
+.about{
+  height: 200px;
+  
 }

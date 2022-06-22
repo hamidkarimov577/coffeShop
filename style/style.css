@@ -28,6 +28,7 @@
 }
 
 .home {
+  height: 100vh;
   position: relative;
 }
 
@@ -64,5 +65,9 @@
   color: white;
   margin-top: 390px;
   margin-left: 60px;
+}
+
+.about {
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */
