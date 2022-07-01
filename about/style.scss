@@ -12,15 +12,20 @@
   justify-content: space-between;
   margin-top: 20px;
   // background: #000;
-    .navbar a{
+  .navbar ul{
+    list-style-type: none;
+    display: flex;
+    a{
       margin: 0 1rem;
       font-size: 20px;
       color: #333D4B;
       text-decoration: none;
+
       &:hover{
         color: #767171;
       }
     }
+  }
 }
 .home {
   height: 100vh;
